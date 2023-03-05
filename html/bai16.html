@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cau16</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <h3>*denotes mandotory</h3>
+    <table>
+        <tr>
+            <td> <label for="fullname" >Full Name*:</label></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="fullname" name="txtfullname" placeholder="Firstname Lastname"></td>
+        </tr>
+        <tr>
+            <td><label for="email"> Email address*:</label></td>
+        </tr>
+        <tr>
+            <td> <input type="text" id="email" name="txtemail" placeholder="EmailAddress"></td>
+        </tr>
+        <tr>
+            <td > <label for="selecttour" id="sel">Select TourPackage*:</label></td>
+        </tr>
+        <tr>
+            <td><Select name="txtselecttour" id="selecttour">
+                <option value="" id="goa" >Goa</option>
+                <option value="" id="bus">Bus</option>
+                <option value="" id="train">Train</option>
+            </Select></td>
+        </tr>
+        <tr>
+            <td><label for="date" >Arival Date*:</label></td>
+        </tr>
+        <tr>
+            <td><input type="datetime-local" id="date" name="txtdate"></td>
+        </tr>
+        <tr>
+            <td><label for="tel">Numeber Of Person*:</label></td>
+        </tr>
+        <tr>
+            <td> <input type="tel" id="tel" name="txttel" placeholder="UNKNOWN_TYPE"></td>
+        </tr>
+        <tr>
+            <td><p id="question" >what woudld you want to avail?*:</p></td>
+        </tr>
+        <tr>
+            <td>
+             <label for="service1">Boarding</label>
+             <input type="checkbox" name="service1" id="service1" value="service1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="service2">Foodding</label>
+                <input type="checkbox" id="service2" name="service2" value="service2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="service3">Slight Seeing </label>
+                <input type="checkbox" id="service3" name="service3" value="service3">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="coupon">Discout Coupon code:</label>
+                
+            </td>
+        </tr>
+        <tr>
+            <td><input type="text" id="coupon" name="txtcoupon" placeholder="UNKNOWN_TYPE"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="endquestion">Terms and conditions*</label> <br>
+                
+                <label for="question1"></label>
+                <input type="radio" id="question1" name="question"> I Agree <br>
+                <label for="question2"></label>
+                <input type="radio" id="question2" name="question"> I Dissagree <br>
+                <input type="submit" value="Complete reservation">
+                
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
